@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEABC7E41A83D81300D6B4FD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7E31A83D81300D6B4FD /* main.c */; };
+		EEABC80A1A83D84900D6B4FD /* astro.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7EA1A83D84900D6B4FD /* astro.c */; };
+		EEABC80B1A83D84900D6B4FD /* cnvfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7ED1A83D84900D6B4FD /* cnvfunc.c */; };
+		EEABC80C1A83D84900D6B4FD /* coordinate.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7F01A83D84900D6B4FD /* coordinate.c */; };
+		EEABC80D1A83D84900D6B4FD /* date.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7F21A83D84900D6B4FD /* date.c */; };
+		EEABC80E1A83D84900D6B4FD /* eclipse.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7F41A83D84900D6B4FD /* eclipse.c */; };
+		EEABC80F1A83D84900D6B4FD /* elp2000.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7F61A83D84900D6B4FD /* elp2000.c */; };
+		EEABC8101A83D84900D6B4FD /* linear.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7FC1A83D84900D6B4FD /* linear.c */; };
+		EEABC8111A83D84900D6B4FD /* nutation.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC7FE1A83D84900D6B4FD /* nutation.c */; };
+		EEABC8121A83D84900D6B4FD /* sideraltime.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC8001A83D84900D6B4FD /* sideraltime.c */; };
+		EEABC8131A83D84900D6B4FD /* stars.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC8021A83D84900D6B4FD /* stars.c */; };
+		EEABC8141A83D84900D6B4FD /* sundial.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC8041A83D84900D6B4FD /* sundial.c */; };
+		EEABC8151A83D84900D6B4FD /* tstastro.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC8061A83D84900D6B4FD /* tstastro.c */; };
+		EEABC8161A83D84900D6B4FD /* vsop87.c in Sources */ = {isa = PBXBuildFile; fileRef = EEABC8081A83D84900D6B4FD /* vsop87.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,35 @@
 
 /* Begin PBXFileReference section */
 		EEABC7E01A83D81300D6B4FD /* libastro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libastro; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEABC7E31A83D81300D6B4FD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EEABC7EA1A83D84900D6B4FD /* astro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = astro.c; sourceTree = SOURCE_ROOT; };
+		EEABC7EB1A83D84900D6B4FD /* astro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = astro.h; sourceTree = SOURCE_ROOT; };
+		EEABC7EC1A83D84900D6B4FD /* astrocst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = astrocst.h; sourceTree = SOURCE_ROOT; };
+		EEABC7ED1A83D84900D6B4FD /* cnvfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cnvfunc.c; sourceTree = SOURCE_ROOT; };
+		EEABC7EE1A83D84900D6B4FD /* cnvfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cnvfunc.h; sourceTree = SOURCE_ROOT; };
+		EEABC7EF1A83D84900D6B4FD /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = SOURCE_ROOT; };
+		EEABC7F01A83D84900D6B4FD /* coordinate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coordinate.c; sourceTree = SOURCE_ROOT; };
+		EEABC7F11A83D84900D6B4FD /* coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coordinate.h; sourceTree = SOURCE_ROOT; };
+		EEABC7F21A83D84900D6B4FD /* date.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = date.c; sourceTree = SOURCE_ROOT; };
+		EEABC7F31A83D84900D6B4FD /* date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = SOURCE_ROOT; };
+		EEABC7F41A83D84900D6B4FD /* eclipse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eclipse.c; sourceTree = SOURCE_ROOT; };
+		EEABC7F51A83D84900D6B4FD /* eclipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eclipse.h; sourceTree = SOURCE_ROOT; };
+		EEABC7F61A83D84900D6B4FD /* elp2000.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elp2000.c; sourceTree = SOURCE_ROOT; };
+		EEABC7F71A83D84900D6B4FD /* elp2000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elp2000.h; sourceTree = SOURCE_ROOT; };
+		EEABC7F81A83D84900D6B4FD /* fbool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbool.h; sourceTree = SOURCE_ROOT; };
+		EEABC7FC1A83D84900D6B4FD /* linear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linear.c; sourceTree = SOURCE_ROOT; };
+		EEABC7FD1A83D84900D6B4FD /* linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linear.h; sourceTree = SOURCE_ROOT; };
+		EEABC7FE1A83D84900D6B4FD /* nutation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nutation.c; sourceTree = SOURCE_ROOT; };
+		EEABC7FF1A83D84900D6B4FD /* nutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nutation.h; sourceTree = SOURCE_ROOT; };
+		EEABC8001A83D84900D6B4FD /* sideraltime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sideraltime.c; sourceTree = SOURCE_ROOT; };
+		EEABC8011A83D84900D6B4FD /* sideraltime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideraltime.h; sourceTree = SOURCE_ROOT; };
+		EEABC8021A83D84900D6B4FD /* stars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stars.c; sourceTree = SOURCE_ROOT; };
+		EEABC8031A83D84900D6B4FD /* stars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stars.h; sourceTree = SOURCE_ROOT; };
+		EEABC8041A83D84900D6B4FD /* sundial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sundial.c; sourceTree = SOURCE_ROOT; };
+		EEABC8051A83D84900D6B4FD /* sundial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sundial.h; sourceTree = SOURCE_ROOT; };
+		EEABC8061A83D84900D6B4FD /* tstastro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tstastro.c; sourceTree = SOURCE_ROOT; };
+		EEABC8071A83D84900D6B4FD /* tstastro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tstastro.h; sourceTree = SOURCE_ROOT; };
+		EEABC8081A83D84900D6B4FD /* vsop87.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vsop87.c; sourceTree = SOURCE_ROOT; };
+		EEABC8091A83D84900D6B4FD /* vsop87.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vsop87.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +97,35 @@
 		EEABC7E21A83D81300D6B4FD /* libastro */ = {
 			isa = PBXGroup;
 			children = (
-				EEABC7E31A83D81300D6B4FD /* main.c */,
+				EEABC7EA1A83D84900D6B4FD /* astro.c */,
+				EEABC7EB1A83D84900D6B4FD /* astro.h */,
+				EEABC7EC1A83D84900D6B4FD /* astrocst.h */,
+				EEABC7ED1A83D84900D6B4FD /* cnvfunc.c */,
+				EEABC7EE1A83D84900D6B4FD /* cnvfunc.h */,
+				EEABC7EF1A83D84900D6B4FD /* common.h */,
+				EEABC7F01A83D84900D6B4FD /* coordinate.c */,
+				EEABC7F11A83D84900D6B4FD /* coordinate.h */,
+				EEABC7F21A83D84900D6B4FD /* date.c */,
+				EEABC7F31A83D84900D6B4FD /* date.h */,
+				EEABC7F41A83D84900D6B4FD /* eclipse.c */,
+				EEABC7F51A83D84900D6B4FD /* eclipse.h */,
+				EEABC7F61A83D84900D6B4FD /* elp2000.c */,
+				EEABC7F71A83D84900D6B4FD /* elp2000.h */,
+				EEABC7F81A83D84900D6B4FD /* fbool.h */,
+				EEABC7FC1A83D84900D6B4FD /* linear.c */,
+				EEABC7FD1A83D84900D6B4FD /* linear.h */,
+				EEABC7FE1A83D84900D6B4FD /* nutation.c */,
+				EEABC7FF1A83D84900D6B4FD /* nutation.h */,
+				EEABC8001A83D84900D6B4FD /* sideraltime.c */,
+				EEABC8011A83D84900D6B4FD /* sideraltime.h */,
+				EEABC8021A83D84900D6B4FD /* stars.c */,
+				EEABC8031A83D84900D6B4FD /* stars.h */,
+				EEABC8041A83D84900D6B4FD /* sundial.c */,
+				EEABC8051A83D84900D6B4FD /* sundial.h */,
+				EEABC8061A83D84900D6B4FD /* tstastro.c */,
+				EEABC8071A83D84900D6B4FD /* tstastro.h */,
+				EEABC8081A83D84900D6B4FD /* vsop87.c */,
+				EEABC8091A83D84900D6B4FD /* vsop87.h */,
 			);
 			path = libastro;
 			sourceTree = "<group>";
@@ -118,7 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEABC7E41A83D81300D6B4FD /* main.c in Sources */,
+				EEABC8101A83D84900D6B4FD /* linear.c in Sources */,
+				EEABC80C1A83D84900D6B4FD /* coordinate.c in Sources */,
+				EEABC80D1A83D84900D6B4FD /* date.c in Sources */,
+				EEABC8151A83D84900D6B4FD /* tstastro.c in Sources */,
+				EEABC8131A83D84900D6B4FD /* stars.c in Sources */,
+				EEABC80A1A83D84900D6B4FD /* astro.c in Sources */,
+				EEABC8161A83D84900D6B4FD /* vsop87.c in Sources */,
+				EEABC80E1A83D84900D6B4FD /* eclipse.c in Sources */,
+				EEABC8111A83D84900D6B4FD /* nutation.c in Sources */,
+				EEABC80B1A83D84900D6B4FD /* cnvfunc.c in Sources */,
+				EEABC8141A83D84900D6B4FD /* sundial.c in Sources */,
+				EEABC8121A83D84900D6B4FD /* sideraltime.c in Sources */,
+				EEABC80F1A83D84900D6B4FD /* elp2000.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
