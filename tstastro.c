@@ -150,12 +150,12 @@ int main(int argc, char * argv[])
      //setdate(&d1,2007,5,11,0,0,0,0);
      //setdate(&d1,2006,1,1,0,0,0,0);
      //setdate(&d1,1998,3,21,0,0,0,0);
-     //setdate(&d1,2001,5,10,0,0,0,0);
-     setdate(&d1,2015,2,4,0,0,0,0);
+     setdate(&d1,2001,5,10,0,0,0,0);
+     //setdate(&d1,2015,2,4,0,0,0,0);
      jd=gregtojd(&d1);
      jd+=(dt/86400);
      
-     tmp=&uccle;
+     tmp=&greenwich;
      
      epos=appGeoPosSun(&planet_1,jd);
      printf("\nDate: %s a %s\n",pdate(&d1),ptime(&d1));
@@ -175,7 +175,7 @@ int main(int argc, char * argv[])
      printf("Angle Parallactique: %s\n",rdstrdms(hpos.q,buff,DG_PI_PI));
      
      //setdate(&d1,2014,12,21,0,0,0,0);
-     setdate(&d1,2015,2,4,0,0,0,0);
+     //setdate(&d1,2015,2,4,0,0,0,0);
      //setdate(&d1,2014,11,16,0,0,0,0);
      jd=gregtojd(&d1);
      jd+=(dt/86400);
